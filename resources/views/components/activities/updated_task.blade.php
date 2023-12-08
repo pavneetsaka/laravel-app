@@ -1,0 +1,1 @@
+{{ $activity->user->name }} updated task from "{{ $activity->changes['before']['body'] }}" to "{{ $activity->changes['after']['body'] }}"
